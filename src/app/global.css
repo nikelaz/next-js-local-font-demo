@@ -1,0 +1,19 @@
+body {
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+section {
+  padding: 20px 0 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-inter);
+}

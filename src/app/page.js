@@ -1,95 +1,19 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+const Home = () => (
+  <main>
+    <section>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+    </section>
+    <section>
+      <h2>Vestibulum ac mauris nec dolor gravida pellentesque in sit amet dui</h2>
+      <p>Vestibulum urna felis, interdum ac suscipit non, ornare a erat. Ut facilisis tortor mi, ac commodo turpis fermentum et. Suspendisse sagittis facilisis ullamcorper. Fusce vulputate arcu ante, sed consequat nisi auctor et. Nunc dolor purus, pretium ut dui sed, porta interdum mi.</p>
+      <p>Nulla facilisi. Aenean vel neque consectetur orci malesuada auctor sed ac nibh. Pellentesque eu augue ut odio viverra fermentum quis et est. Nulla viverra, justo a viverra placerat, velit velit dictum neque, quis euismod purus nulla vitae ante. Donec vulputate sem quis libero lobortis rhoncus. Integer porta justo vel fringilla efficitur. Ut malesuada metus ut ipsum tincidunt maximus. Praesent lectus nulla, scelerisque rutrum magna quis, gravida auctor ligula. Suspendisse eros massa, euismod vel justo quis, lobortis maximus tortor.</p>
+    </section>
+    <section>
+      <h2>Integer elementum vel mi a vestibulum</h2>
+      <p>Duis orci lacus, malesuada sit amet erat ac, vestibulum mattis ligula. Aenean finibus mauris ac eros vulputate auctor. Aliquam erat volutpat. Donec arcu diam, fringilla vitae ultricies ac, vehicula faucibus neque.</p>
+      <p>Ut non dui vitae erat volutpat lacinia nec rutrum felis. Donec ac elementum libero. Duis egestas sit amet magna sed luctus. Fusce eget enim scelerisque, interdum eros tempor, congue nulla. Duis dui ex, fringilla sed diam id, efficitur ornare justo. Pellentesque ipsum nunc, suscipit a ipsum vitae, tristique ornare ex. Vivamus imperdiet ultricies congue.</p>
+    </section>
+  </main>
+);
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
-}
+export default Home;
